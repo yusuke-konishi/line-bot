@@ -43,3 +43,5 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'line-bot-api', github: 'stivan622/line-bot-sdk-ruby'
+gem 'dotenv-rails'

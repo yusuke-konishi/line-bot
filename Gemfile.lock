@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/stivan622/line-bot-sdk-ruby.git
+  revision: 5f33f0699be088d5ef34a7dce7594de0ad56027c
+  specs:
+    line-bot-api (1.2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -50,6 +56,10 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
     debug_inspector (0.0.3)
+    dotenv (2.2.1)
+    dotenv-rails (2.2.1)
+      dotenv (= 2.2.1)
+      railties (>= 3.2, < 5.2)
     erubis (2.7.0)
     execjs (2.7.0)
     globalid (0.4.0)
@@ -146,8 +156,10 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
+  dotenv-rails
   jbuilder (~> 2.0)
   jquery-rails
+  line-bot-api!
   pg
   rails (= 4.2.3)
   sass-rails (~> 5.0)
